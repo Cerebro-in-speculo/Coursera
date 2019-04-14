@@ -19,8 +19,9 @@ std::vector<std::string> PalindromFilter(std::vector<std::string> words,int minL
     for(auto &s:words)
     {
         if(IsPalindrom(s)&&s.size()>=minLength)
-            returnPalindrom.
+            returnPalindrom.push_back(s);
     }
+    return returnPalindrom;
 }
 
 int main()
@@ -28,7 +29,7 @@ int main()
     int minLength;
     std::cin>>minLength;
 
-    std::vector<std::string> v{"weew","bro","code"};
+    std::vector<std::string> v{"abacaba","aba"};
 
     for(auto &s:PalindromFilter(v,minLength))
         std::cout<<s<<" ";
