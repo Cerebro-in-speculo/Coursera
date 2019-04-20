@@ -1,4 +1,7 @@
 # depslib dependency file v1.0
-1555264644 source:/home/hunter/Рабочий стол/C++/Coursera/White/WEEK2/4/main.cpp
+1555354434 source:/home/hunter/Рабочий стол/C++/Coursera/White/WEEK2/4/main.cpp
 	<iostream>
+	<algorithm>
+	<vector>
+	<chrono>
 
