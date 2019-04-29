@@ -29,17 +29,14 @@ int main()
             }
             else
             {
-                for(auto &c:directory)
-                {
-                    if(c.first==country&&c.second==capital)
-                        std::cout<<"Country "<<country<<" hasn't changed its capital"<<std::endl;
-                    else if(c.first==country&&c.second!=capital)
-                    {
-                        std::cout<<"Country "<<country<<" has changed its capital from "<<directory[country]<<" to "<<capital<<std::endl;
-                        directory[country]=capital;
-                    }
-                }
+                std::string old_capital=directory[country];
+
+                if(old_capital==capital)
+                    std::cout<<"Country "<<country<<" hasn't changed its capital"<<std::endl;
+                else
+                    std::cout<<"Country "<<country<<" has changed its capital from "<<old_capital<<" to "<<capital<<std::endl;
             }
+                directory[country]=capital;
         }
 
         if (request=="RENAME")
@@ -65,19 +62,15 @@ int main()
 
         if(request=="DUMP")
         {
-            int score{0};
 
-            for(auto &c:directory)
-                ++score;
-
-            if(score)
+            if(directory.empty())
+                std::cout<<"There are no countries in the world"<<std::endl;
+            else
             {
                 for(auto &c:directory)
-                    std::cout<<c.first<<"/"<<c.second<<" ";
-                std::cout<<std::endl;
+                std::cout<<c.first<<"/"<<c.second<<" ";
             }
-            else
-                std::cout<<"There are no countries in the world"<<std::endl;
+            std::cout<<std::endl;
         }
 
         if(request=="ABOUT")
@@ -85,7 +78,7 @@ int main()
             std::cin>>country;
 
                 if(directory.count(country)==0)
-                    std::cout<<"Country "<<country<<" doesn't exist."<<std::endl;
+                    std::cout<<"Country "<<country<<" doesn't exist"<<std::endl;
                 else
                     std::cout<<"Country "<<country<<" has capital "<<directory[country]<<std::endl;
         }
