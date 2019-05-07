@@ -6,15 +6,13 @@
 int main()
 {
     std::string request;
-    int index{0};
-    std::map<std::string,std::vector<std::vector<std::string>>>route;
+    std::map<std::string,std::vector<std::string>>route;
     std::string bus;
     int stop_count;
     std::string stop;
 
     int q{0};
     std::cin>>q;
-    std::vector<std::vector<std::string>>stopBus(q);
 
     while(q>0)
     {
@@ -27,83 +25,74 @@ int main()
             for(int i=0;i<stop_count;++i)
             {
                 std::cin>>stop;
-                stopBus[index].push_back(stop);
+                route[bus].push_back(stop);
             }
-            route[bus].push_back(stopBus[index]);
-            ++index;
         }
         else if(request=="BUSES_FOR_STOP")
         {
-            int countStop{0};
-            std::vector<std::string>vStop;
+            int indStop{0};
             std::cin>>stop;
 
-            for(auto &r:route)
+            for(auto&r:route)
             {
                 for(int k=0;k<r.second.size();++k)
                 {
-                    for(auto &s:r.second[k])
+                    if(r.second[k]==stop)
                     {
-                        if(stop==s)
-                        {
-                            vStop.push_back(r.first);
-                            ++countStop;
-                        }
+                        std::cout<<r.first<<" ";
+                        ++indStop;
                     }
                 }
             }
-
-            if(countStop)
-            {
-                for(auto &v:vStop)
-                    std::cout<<v<<" ";
-                std::cout<<std::endl;
-            }
-            else
+            if(indStop==0)
                 std::cout<<"No stop";
+            std::cout<<std::endl;
         }
 
-        else if(request=="STOP_FOR_BUS")
+        else if(request=="STOPS_FOR_BUS")
         {
             std::cin>>bus;
-            std::vector<std::string>vBus;
+            std::vector<std::string>stopBus;
 
             if(route.count(bus)==0)
                 std::cout<<"No bus"<<std::endl;
             else
             {
-                for(auto&r:route)
+                stopBus=route[bus];
+                for(int k=0;k<stopBus.size();++k)
                 {
-                    if(r.first==bus)
+                    bool indBus=true;
+                    std::cout<<"Stop "<<stopBus[k]<<": ";
+                    for(auto &r:route)
                     {
-                        std::cout<<"Stop ";
-                        for(auto &s:r.second)
+                        for(int i=0;i<r.second.size();++i)
                         {
-                            std::cout<<s<<": ";
-
-
+                            if(r.second[i]==stopBus[k]&&r.second!=stopBus)
+                            {
+                                std::cout<<r.first<<" ";
+                                indBus=false;
+                            }
                         }
                     }
 
+                    if(indBus)
+                        std::cout<<"no interchange";
+                    std::cout<<std::endl;
                 }
             }
         }
-
         else if(request=="ALL_BUSES")
         {
             if(route.empty())
                 std::cout<<"No buses"<<std::endl;
             else
             {
-                for(auto &r:route)
+                for(auto&r:route)
                 {
-                    std::cout<<"Bus "<<r.first<<" ";
+                    std::cout<<"Bus "<<r.first<<": ";
                     for(int k=0;k<r.second.size();++k)
-                    {
-                        for(auto& v:r.second[k])
-                            std::cout<<v<<" ";
-                    }
-                std::cout<<std::endl;
+                        std::cout<<r.second[k]<<" ";
+                    std::cout<<std::endl;
                 }
             }
         }
