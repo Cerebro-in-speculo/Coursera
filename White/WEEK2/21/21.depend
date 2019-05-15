@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1557781585 source:/home/hunter/Рабочий стол/C++/Coursera/White/WEEK2/21/main.cpp
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	<set>
+
