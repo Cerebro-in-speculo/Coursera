@@ -32,7 +32,7 @@ public:
 			return source_value - value;
 		else if (operation == '*')
 			return source_value * value;
-		else 
+		else
 			return source_value / value;
 	}
 
@@ -40,11 +40,11 @@ public:
 	{
 		if (operation == '+')
 			operation = '-';
-		if (operation == '-')
+		else if (operation == '-')
 			operation = '+';
-		if (operation == '*')
+		else if (operation == '*')
 			operation = '/';
-		if (operation == '/')
+		else
 			operation = '*';
 	}
 
