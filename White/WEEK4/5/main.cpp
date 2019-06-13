@@ -1,17 +1,33 @@
 #include<iostream>
 #include<fstream>
 #include<string>
+#include<vector>
+#include<iomanip>
 
 using namespace std;
 
 int main()
 {
-	ifstream input ("hello.txt");
-	string line;
-	while (getline(input, line))
+	ifstream input( "input.txt" );
+	ofstream output("output.txt");
+	if (input)
 	{
-		cout << line << endl;
+		string line;
+		while (getline(input, line))
+		{
+			cout << line << endl;
+			//input.ignore(1, '\n');
+		}
 	}
 
+	if (input)
+	{
+		string line;
+		while (getline(input, line))
+		{
+			output << line << endl;
+	//		input.ignore(1, '\n');
+		}
+	}
 	return 0;
 }
