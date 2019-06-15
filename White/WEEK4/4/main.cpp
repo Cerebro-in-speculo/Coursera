@@ -40,11 +40,11 @@ public:
 	{
 		if (operation == '+')
 			operation = '-';
-		if (operation == '-')
+		else if (operation == '-')
 			operation = '+';
-		if (operation == '*')
+		else if (operation == '*')
 			operation = '/';
-		if (operation == '/')
+		else
 			operation = '*';
 	}
 
