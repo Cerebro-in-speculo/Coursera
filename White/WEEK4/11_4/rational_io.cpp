@@ -56,7 +56,24 @@ bool operator==(const Rational& e1, const Rational& e2)
 	return false;
 }
 
-// Реализуйте для класса Rational операторы << и >>
+ostream& operator<<(ostream& stream,const Rational& output)
+{
+	stream << output.Numerator() << '/' << output.Denominator();
+	return stream;
+}
+
+istream& operator>>(istream& stream, Rational& input)
+{
+	int x, y;
+	stream >> x;
+	stream.ignore(1);
+	stream >> y;
+	if (stream)
+	{
+		input = Rational{ x,y };
+	}
+	return stream;
+}
 
 int main() {
     {
