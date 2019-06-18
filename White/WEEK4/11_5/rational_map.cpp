@@ -58,8 +58,12 @@ bool operator==(const Rational& e1, const Rational& e2)
 	return false;
 }
 
-// Реализуйте для класса Rational оператор(ы), необходимые для использования его
-// в качестве ключа map'а и элемента set'а
+bool operator < (const Rational& e1, const Rational& e2)
+{ 
+	const int lhs_num = e1.Numerator() * e2.Denominator(); 
+	const int rhs_num = e2.Numerator() * e1.Denominator(); 
+	return lhs_num < rhs_num;
+}
 
 int main() {
     {
