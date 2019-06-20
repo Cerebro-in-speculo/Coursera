@@ -1,0 +1,13 @@
+﻿  project_template.cpp
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(14,47): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(14,47): error C2143:  синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(15,50): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(15,50): error C2143:  синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(18,41): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(18,41): warning C4183:  Find: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(26,3): error C2065:  string: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(26,10): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "command"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(26,10): error C2065:  command: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(27,18): error C2065:  cin: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(27,23): error C2065:  command: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\White\WEEK4\17_final\project_template.cpp(27,10): error C3861:  getline: идентификатор не найден
