@@ -39,19 +39,39 @@ public:
 	  base[date].push_back(event);
   }
   
-  //bool DeleteEvent(const Date& date, const string& event);
-  //int  DeleteDate(const Date& date);
+  bool DeleteEvent(const Date& date, const string& event)
+  {
+	  for (int k = 0; k < base[date].size(); ++k)
+	  {
+		  if (base[date][k] == event)
+		  {
+			  base[date][k].erase();
+			  return true;
+		  }
+	  }
+	  return false;
+  }
+
+  int  DeleteDate(const Date& date)
+  {
+	  int count = 0;
+	  for (auto& i : base[date])
+	  {
+		  i.erase();
+		  ++count;
+	  }
+	  return count;
+  }
   //Date& Find(const Date& date) const;
   
   void Print() const
   {
-	  char ch = '-';
 	  for (const auto & i : base)
 	  {
 		  for (int k = 0; k < i.second.size(); ++k)
 		  {
-			  cout << setw(4) <<setfill('0')<< i.first.GetYear() << ch
-				   << setw(2) <<setfill('0')<< i.first.GetMonth() << ch
+			  cout << setw(4) <<setfill('0')<< i.first.GetYear() << "-"
+				   << setw(2) <<setfill('0')<< i.first.GetMonth() << "-"
 				   << i.first.GetDay() << ' ';
 			  cout << i.second[k] << endl;
 		  }
@@ -62,58 +82,64 @@ private:
 	map<Date, vector<string>>base;
 };
 
+Date correctDate(const string& date)
+{
+	stringstream stream(date);
+	int year, month, day;
+
+	if (stream >> year && stream.peek() == '-')
+		stream.ignore(1);
+	else
+		throw runtime_error ("Wrong date format: " + date);
+	if (stream >> month && stream.peek() == '-')
+		stream.ignore(1);
+	else
+		throw runtime_error("Wrong date format: " + date);
+	if (stream >> day)
+		stream.ignore(1);
+	else
+		throw runtime_error("Wrong date format: " + date);
+
+	if (month < 1 || month>12)
+		throw runtime_error("Month value is invalid : "+ month);
+
+	if (day < 1 || day>31)
+		throw runtime_error("Day value is invalid: " + day);
+	return { year,month,day };
+}
+
 int main() {
   Database db;
     
   string command;
-  while (getline(cin, command,' ')) {
+  while (getline (cin, command,' ')) {
 	  if (command == "Add")
 	  {
-		  string date,event;
+		  string date, event;
 		  cin >> date >>event;
-		  
-		  stringstream stream(date);
-		  int year, month, day;
-
-		  if (stream >> year&&stream.peek()=='-')
-			  stream.ignore(1);
-		  else
-		  {
-			  cout << "Wrong date format: " + date;
+		  try {
+			  db.AddEvent(correctDate(date), event);
+			  cin.ignore(1);
+		  }
+		  catch (exception& ex) {
+			  cout << ex.what() << endl;
 			  break;
 		  }
-		  if (stream >> month &&stream.peek() == '-')
-			  stream.ignore(1);
-		  else 
-		  {
-			  cout << "Wrong date format: " + date;
-			  break;
-		  }
-		  if (stream >> day)
-		  {
-			  stream.ignore(1);
-		  }
-		  else 
-		  {
-			  cout << "Wrong date format: " + date;
-			  break;
-		  }
-
-		  if (month < 1 || month>12)
-		  {
-			  cout << "Month value is invalid : " << month;
-			  break;
-		  }
-		  if (day < 1 || day>31)
-		  {
-			  cout << "Day value is invalid: " << day;
-			  break;
-		  }
-				
-			  db.AddEvent({ year,month,day }, event);
       }
 	  else if (command == "Del")
 	  {
+		  string date, event;
+		  cin >> date;
+
+		  if (cin>>event)
+		  {
+			  if (db.DeleteEvent(correctDate(date), event))
+				  cout << "Deleted successfully" << endl;
+			  else
+				  cout << "Event not found" << endl;
+		  }
+		  else
+			  cout << "Deleted " << db.DeleteDate(correctDate(date)) << " events" << endl;
 	  }
 	  else if (command == "Find")
 	  {
