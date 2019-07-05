@@ -1,0 +1,57 @@
+﻿  main.cpp
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(22,28): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(22,28): error C2143:  синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(23,1): error C2803:  "operator <" должен иметь по крайней мере один формальный параметр типа класс
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(23,1): error C2805:  бинарный "operator <" имеет слишком мало параметров
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,13): error C2065:  lhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,27): error C2065:  lhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,48): error C2065:  lhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,59): error C2065:  lhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,9): error C2672:  "std::tie": не найдена соответствующая перегруженная функция
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,81): error C2065:  rhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,95): error C2065:  rhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,116): error C2065:  rhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,127): error C2065:  rhs: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(24,77): error C2672:  "std::tie": не найдена соответствующая перегруженная функция
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,41): error C2065:  Region: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,47): error C2923:  std::vector: "Region" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,47): error C2903:  allocator: символ не является ни классом шаблон, ни функцией шаблон
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,47): error C3203:  "allocator": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Alloc", требуется действительный тип
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,48): error C2923:  std::vector: "Region" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,48): error C2903:  allocator: символ не является ни классом шаблон, ни функцией шаблон
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(29,48): error C3203:  "allocator": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Alloc", требуется действительный тип
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,6): error C2065:  Region: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,17): error C2923:  std::map: "Region" не является допустимым аргументом типа шаблон для параметра "_Kty"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,17): error C2903:  less: символ не является ни классом шаблон, ни функцией шаблон
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,17): error C3203:  "less": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Pr", требуется действительный тип
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,17): error C2903:  pair: символ не является ни классом шаблон, ни функцией шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,17): error C3203:  "pair": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,18): error C2923:  std::map: "Region" не является допустимым аргументом типа шаблон для параметра "_Kty"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,18): error C2903:  less: символ не является ни классом шаблон, ни функцией шаблон
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,18): error C3203:  "less": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Pr", требуется действительный тип
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,18): error C2903:  pair: символ не является ни классом шаблон, ни функцией шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,18): error C3203:  "pair": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,23): error C2133:  value: неизвестный размер
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(32,18): error C2512:  std::map: нет подходящего конструктора по умолчанию
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,1): message :   см. объявление "std::map"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,32): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,19): error C2143:  синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,32): error C2530:  i: ссылки должны быть инициализированы
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,23): error C2143:  синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,32): error C2143:  синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,32): error C2451:  недопустимое условное выражение типа "const std::vector"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(33,25): message :  Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(34,12): error C2678:  бинарный "[": не найден оператор, принимающий левый операнд типа "std::map" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(287,18): message :  может быть "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](const _Kty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(165,18): message :  или       "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](_Kty &&)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(34,12): message :  при попытке сопоставить список аргументов "(std::map, const int)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,18): error C2065:  Region: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C2923:  std::pair: "Region" не является допустимым аргументом типа шаблон для параметра "_Ty1"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C2663:  std::_Tree<_Traits>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C2663:  std::_Tree<_Traits>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C3536:  <begin>$L0: не может использоваться до инициализации
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C3536:  <end>$L0: не может использоваться до инициализации
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C2100:  недопустимое косвенное обращение
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): error C2440:  инициализация: невозможно преобразовать "int" в "const std::pair &"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): message :  Причина: невозможно преобразовать "int" в "const std::pair"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\5\main.cpp(35,40): message :  Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
