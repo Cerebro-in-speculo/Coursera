@@ -1,0 +1,117 @@
+﻿  main.cpp
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(20,17): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(20,17): error C2143:  синтаксическая ошибка: отсутствие ";" перед "&"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(21,2): error C2334:  непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(30,17): error C2327:  TeamTasks::TasksInfo: не является именем типа, статическим членом или перечислителем
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(30,8): error C2065:  TasksInfo: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(30,28): error C2327:  TeamTasks::TasksInfo: не является именем типа, статическим членом или перечислителем
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(30,19): error C2065:  TasksInfo: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(30,28): error C3544:  "_Types": пакет параметров ожидает аргумент шаблона типа
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(30,30): error C3544:  "_Types": пакет параметров ожидает аргумент шаблона типа
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(115,22): error C3646:  taskStatus: неизвестный спецификатор переопределения
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(115,22): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(116,23): error C2327:  TeamTasks::TasksInfo: не является именем типа, статическим членом или перечислителем
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(116,14): error C2065:  TasksInfo: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(116,23): error C2923:  std::map: "TasksInfo" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,23): error C2903:  pair: символ не является ни классом шаблон, ни функцией шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,23): error C3203:  "pair": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(116,24): error C2923:  std::map: "TasksInfo" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,24): error C2903:  pair: символ не является ни классом шаблон, ни функцией шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(68,24): error C3203:  "pair": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(27,1): error C2678:  бинарный "[": не найден оператор, принимающий левый операнд типа "std::map" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(287,18): message :  может быть "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](const _Kty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(165,18): message :  или       "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](_Kty &&)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(27,1): message :  при попытке сопоставить список аргументов "(std::map, const std::string)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(27,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(27,38): error C2065:  NEW: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(31,2): error C2027:  использование неопределенного типа "std::tuple"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\tuple(202): message :   см. объявление "std::tuple"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(32,13): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "real_temp"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(32,13): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(33,13): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "untouched_temp"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(33,13): error C2065:  untouched_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(34,13): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "updated_temp"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(34,13): error C2065:  updated_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(35,13): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "temp"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(35,13): error C2065:  temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(35,1): error C2678:  бинарный "[": не найден оператор, принимающий левый операнд типа "std::map" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(287,18): message :  может быть "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](const _Kty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(165,18): message :  или       "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](_Kty &&)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(35,1): message :  при попытке сопоставить список аргументов "(std::map, const std::string)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(37,18): error C2065:  temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(37,1): error C3312:  не найдена вызываемая функция "begin" для типа "unknown-type"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(37,1): error C3312:  не найдена вызываемая функция "end" для типа "unknown-type"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(39,12): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(41,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(41,22): error C2065:  NEW: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(41,22): error C2131:  выражение не определяется константой
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(41,22): message :  обнаружено неконстантное (под)выражение
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(43,10): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(45,19): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(48,8): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(48,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(48,30): error C2065:  IN_PROGRESS: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(49,8): error C2065:  updated_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(49,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(49,33): error C2065:  IN_PROGRESS: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(55,8): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(55,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(55,30): error C2065:  NEW: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(56,8): error C2065:  untouched_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(56,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(56,35): error C2065:  NEW: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(61,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(61,22): error C2065:  IN_PROGRESS: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(61,22): error C2131:  выражение не определяется константой
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(61,22): message :  обнаружено неконстантное (под)выражение
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(63,10): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(65,19): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(68,8): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(68,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(68,30): error C2065:  TESTING: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(69,8): error C2065:  updated_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(69,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(69,33): error C2065:  TESTING: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(75,8): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(75,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(75,30): error C2065:  IN_PROGRESS: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(76,8): error C2065:  untouched_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(76,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(76,35): error C2065:  IN_PROGRESS: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(81,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(81,22): error C2065:  TESTING: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(81,22): error C2131:  выражение не определяется константой
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(81,22): message :  обнаружено неконстантное (под)выражение
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(83,10): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(85,19): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(88,8): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(88,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(88,30): error C2065:  DONE: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(89,8): error C2065:  updated_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(89,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(89,33): error C2065:  DONE: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(95,8): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(95,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(95,30): error C2065:  TESTING: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(96,8): error C2065:  untouched_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(96,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(96,35): error C2065:  TESTING: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(101,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(101,22): error C2065:  DONE: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(101,22): error C2131:  выражение не определяется константой
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(101,22): message :  обнаружено неконстантное (под)выражение
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(103,10): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(105,7): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(105,1): error C2653:  TaskStatus: не является именем класса или пространства имен
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(105,29): error C2065:  DONE: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(105,38): error C2065:  i: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(111,1): error C2678:  бинарный "[": не найден оператор, принимающий левый операнд типа "std::map" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(287,18): message :  может быть "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](const _Kty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\map(165,18): message :  или       "_Ty &std::map<_Kty,_Ty,_Pr,_Alloc>::operator [](_Kty &&)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(111,1): message :  при попытке сопоставить список аргументов "(std::map, const std::string)"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(111,24): error C2065:  real_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(112,1): error C3544:  "_Types": пакет параметров ожидает аргумент шаблона типа
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(112,1): error C2955:  "std::tuple": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\tuple(202): message :   см. объявление "std::tuple"
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(112,38): error C2065:  updated_temp: необъявленный идентификатор
+C:\Users\rledo\OneDrive\Рабочий стол\C++\Coursera\Yellow\WEEK1\6\main.cpp(112,52): error C2065:  untouched_temp: необъявленный идентификатор
